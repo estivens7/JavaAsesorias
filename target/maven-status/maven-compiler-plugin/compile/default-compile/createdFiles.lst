@@ -1,0 +1,9 @@
+com\mycompany\asesorias\resources\JakartaEE11Resource.class
+config\DBConnection.class
+modelo\Asesoria.class
+controlador\AsesoriaServlet.class
+dao\AsesoriaDAO.class
+dao\UsuarioDAO.class
+com\mycompany\asesorias\JakartaRestConfiguration.class
+modelo\Usuario.class
+controlador\LoginServlet.class

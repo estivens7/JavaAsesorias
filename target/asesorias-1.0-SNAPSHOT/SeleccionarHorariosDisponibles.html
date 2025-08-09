@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agendamiento de Asesorías Virtuales</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="header-left">
+      <img src="imagenes/casa.png" alt="Logo" id="menuToggle" style="cursor: pointer;">
+    </div>
+        <h1>Sistema de Asesorías (Usuario - Estudiante)</h1>
+    <nav id="menu" class="menu-desplegable oculto">
+      <ul>
+        <li><a href="asesoriasAgendadas.html">Asesorías Agendadas</a></li>
+        <li><a href="VisualizarImagenesDisponibles.html">VerHorarios</a></li>
+        <li><a href="EditarPerfil.html">Perfil</a></li>
+        <li><a href="SeleccionarHorariosDisponibles.html">Horarios</a></li>
+        <li><a href="Notificaciones.html">Notificaciones</a></li>
+        <li><a href="../ingresarCuenta.html">Salir</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+<div class="container">
+
+    <div class="contenedor-seleccion">
+        <h2>SELECCIONAR HORARIOS DISPONIBLES</h2>
+        <p class="subtitulo">HORARIOS DISPONIBLES</p>
+        <div class="dias-grid">
+          <div class="dia">
+            <h3>Lunes</h3>
+            <div class="horas">
+              <label><input type="checkbox" name="horario" value="Lunes 6:00 a.m - 8:00 a.m"> 6:00 a.m - 8:00 a.m</label>
+            </div>
+          </div>
+          <div class="dia">
+            <h3>Martes</h3>
+            <div class="horas">
+              <label><input type="checkbox" name="horario" value="Martes 2:00 p.m - 4:00 p.m"> 2:00 p.m - 4:00 p.m</label>
+            </div>
+          </div>
+          <div class="dia">
+            <h3>Miércoles</h3>
+            <div class="horas">
+              <label><input type="checkbox" name="horario" value="Miércoles 6:30 a.m - 8:00 a.m"> 6:30 a.m - 8:00 a.m</label>
+            </div>
+          </div>
+          <div class="dia">
+            <h3>Jueves</h3>
+            <div class="horas">
+              <label><input type="checkbox" name="horario" value="Jueves 3:00 p.m - 5:00 p.m"> 3:00 p.m - 5:00 p.m</label>
+            </div>
+          </div>
+          <div class="dia">
+            <h3>Viernes</h3>
+            <div class="horas">
+              <label><input type="checkbox" name="horario" value="Viernes 7:00 a.m - 9:00 a.m"> 7:00 a.m - 9:00 a.m</label>
+            </div>
+          </div>
+          <div class="dia">
+            <h3>Sábado</h3>
+            <div class="horas">
+              <label><input type="checkbox" name="horario" value="Sábado 8:30 a.m - 10:30 a.m"> 8:30 a.m - 10:30 a.m</label>
+            </div>
+          </div>
+        </div>
+        
+      
+        <div class="confirmar">
+          <div id="mensaje-confirmacion" class="mensaje-confirmacion oculto">
+            Horario seleccionado correctamente.
+          </div>
+          <button class="btn-confirmar">CONFIRMAR HORARIO</button>
+        </div>
+        
+      </div>
+      
+          </div>          
+  
+  <footer>
+    AGENDAMIENTO DE ASESORÍAS VIRTUALES
+  </footer>
+  <script src="../../js/SeleccinarHorariosDisponibles.js"></script>
+</body>
+</html>
